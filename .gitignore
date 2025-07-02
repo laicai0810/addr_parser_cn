@@ -1,0 +1,24 @@
+# Python 缓存文件
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 虚拟环境文件夹
+venv/
+env/
+.venv/
+
+# IDE 和编辑器配置文件
+.idea/
+.vscode/
+
+# 自动生成的数据库和数据文件
+# 我们希望用户在安装后自己生成这些文件，而不是将它们包含在源码中
+addr_parser_cn/data/aliyun_regions.sqlite
+addr_parser_cn/data/aliyun_raw_data.json
+
+# 构建和分发产生的文件夹
+build/
+dist/
+*.egg-info/
