@@ -14,6 +14,10 @@
 ## 安装
 
 1.  将本项目克隆或下载到本地。
+   ```bash
+    D:cd my_projects
+   git clone https://github.com/laicai0810/addr_parser_cn.git
+   ```
 2.  在项目的根目录（即`setup.py`所在的目录）下，通过pip进行安装：
 
     ```bash
